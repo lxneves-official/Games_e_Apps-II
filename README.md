@@ -1,6 +1,6 @@
 # Aula 01
 
-Título: Construindo um Storyboard 
+Construindo um Storyboard 
 
 ## Introdução: 
 
