@@ -1,6 +1,4 @@
-# Games-e-Apps-II
-Roteiros de aula da UC Games e Apps II
-Aula 01
+#Aula 01
 
 Título: Construindo um Storyboard 
 
