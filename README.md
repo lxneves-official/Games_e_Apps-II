@@ -36,3 +36,6 @@ Nesta etapa você deve criar uma continuação para a história.
 * Configure o tamanho da tela de acordo com suas imagens.
 * O Storyboard deve ser acionado pelo botão do mouse, ou seja, a cada clique a tela deve ser atualizada para a próxima imagem da história.
 * Após a útlima tela da história, ao clicar com o mouse, a tela do jogo deve ser fechada.
+
+
+<iframe src="https://trinket.io/embed/pygame/a3582442a327" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
