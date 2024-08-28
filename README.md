@@ -13,7 +13,7 @@ Desenvolver um Storyboard e nele precisam estar presentes alguns elementos como:
 ## Primeiros passos: 
 
   * Salve as imagens e o arquivo Story.py em uma mesma pasta;
-  * Abra o arquivo Story.py com a IDLE (Python GUI);
+  * Abra o arquivo Story.py com a IDLE;
   * Pressione F5 para testar o código.
 
 Teste alguns comandos para entender seu funcionamento:
