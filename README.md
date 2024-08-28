@@ -38,4 +38,4 @@ Nesta etapa você deve criar uma continuação para a história.
 * Após a útlima tela da história, ao clicar com o mouse, a tela do jogo deve ser fechada.
 
 
-<iframe src="https://trinket.io/embed/pygame/a3582442a327" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+Veja o resultado em https://trinket.io/embed/pygame/a3582442a327
