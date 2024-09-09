@@ -32,4 +32,4 @@ Nesta etapa você deve criar uma continuação para a história.
 * Implemente o código para que a velocidade do cogumelo mude de maneira aleatória.
 
 
-Veja o resultado em [https://trinket.io/pygame/11530b561ed9]
+Veja o resultado em https://trinket.io/pygame/11530b561ed9
