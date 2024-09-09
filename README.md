@@ -4,7 +4,7 @@ Construindo um Storyboard
 
 ## Introdução: 
 
-O objetivo do post de hoje é criar uma narrativa baseada em 10 telas com a programação Python(com o uso da biblioteca Pygame). Como seria a sequência de telas para dar início, meio e fim a uma história contada? Construa essa narrativa. 
+O objetivo desta aula é criar uma narrativa baseada em 10 telas com a programação Python(com o uso da biblioteca Pygame). Como seria a sequência de telas para dar início, meio e fim a uma história contada? Construa essa narrativa. 
 
 ## Tarefa: 
 
