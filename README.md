@@ -29,7 +29,8 @@ O objetivo desta aula é desenvolver um layout para um jogo de tiro (que também
 Nesta etapa você deve criar uma continuação para a história.
 
 * Adicione um som de tiro a cada clique do mouse;
-* Implemente o código para que a velocidade do cogumelo mude de maneira aleatória.
+* Implemente o código para que a velocidade do cogumelo mude de maneira aleatória;
+* Adicione um som ambiente para o jogo.
 
 
 Veja o resultado em https://trinket.io/pygame/11530b561ed9
