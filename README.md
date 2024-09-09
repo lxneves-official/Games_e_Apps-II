@@ -33,4 +33,4 @@ Nesta etapa você deve criar uma continuação para a história.
 * Adicione um som ambiente para o jogo.
 
 
-Veja o resultado em https://trinket.io/pygame/11530b561ed9
+Veja o resultado em https://trinket.io/pygame/959a71b171f6
