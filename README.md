@@ -23,7 +23,7 @@ Criar um aplicativo, utilizando a plataforma [MIT APP Inventor](https://appinven
     3. 2 legendas;
     4. 2 deslizadores;
        
-  * Adicione as ferramentas listadas abaixo que você encontrará mp menu lateral *"Mídia"*:
+  * Adicione as ferramentas listadas abaixo que você encontrará no menu lateral *"Mídia"*:
     1. Reconhecedor de Voz;
     2. Texto para falar;
 
