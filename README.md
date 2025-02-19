@@ -63,4 +63,4 @@ Criar um aplicativo, utilizando a plataforma [MIT APP Inventor](https://appinven
 
 ## Exemplo:
 
-[Aplicativo de Exemplo](https://gallery.appinventor.mit.edu/?galleryid=2fe90414-f4c1-4f6e-852c-6802a0c18a02)
+[Aplicativo de Exemplo](https://gallery.appinventor.mit.edu/?galleryid=c9a2b476-581e-4da1-8479-4d6fd1949d10)
