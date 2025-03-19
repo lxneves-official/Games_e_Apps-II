@@ -20,9 +20,10 @@ Teste alguns comandos para entender seu funcionamento:
 
 * Altere os valores (250,185) da linha de comando *screen=pygame.display.set_mode((250,185),0,0)* para (500,370) e veja o que acontece com o jogo;
 * Altere os valores (0,0) no último  *elif* no comando *screen.blit* para (30,30) e veja o que acontece.
-* Veja o que acontece se você adicionar o código abaixo após a última linha com a função *elif*
-        *elif (event.type == MOUSEBUTTONUP) and (estado == 6):
-            pygame.display.quit ()*
+* Veja o que acontece se você adicionar o código abaixo após a última linha com a função **elif**
+  
+        elif (event.type == MOUSEBUTTONUP) and (estado == 6):
+            pygame.display.quit ()
 
 ## Desafio:
 
