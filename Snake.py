@@ -13,6 +13,15 @@ VELOCIDADE = 10
 ALTURA = 600
 LARGURA = 600
 
+#trilha sonora
+pygame.mixer.init()
+pygame.mixer.music.load('musica.mp3')  # Nome do seu arquivo de música
+pygame.mixer.music.set_volume(0.5)     # Volume entre 0.0 e 1.0
+pygame.mixer.music.play(-1)            # -1 faz a música tocar em loop infinito
+som_captura = pygame.mixer.Sound('mordida.wav')
+inicio = pygame.mixer.Sound('inicio.wav')
+colisao = pygame.mixer.Sound('colisao.wav')
+
 #definição de gerador de número randômico inteiro
 def posicao_aleatoria():
     x = random.randint(50,590)
@@ -29,6 +38,7 @@ def reiniciar_jogo():
     direcao = LEFT
     pontinho_pos = posicao_aleatoria()
     placar = 0
+    inicio.play()
 
 pygame.init()
 screen = pygame.display.set_mode((LARGURA,ALTURA))
@@ -55,6 +65,7 @@ while True:
     clock.tick(VELOCIDADE)
     for event in pygame.event.get():
         if event.type == QUIT:
+            pygame.mixer.music.stop()
             pygame.quit()
 
 #controle da cobrinha com as teclas direcionais do teclado
@@ -68,6 +79,7 @@ while True:
             elif event.key == K_RIGHT and direcao != LEFT:
                 direcao = RIGHT
             elif event.key == K_ESCAPE:
+                pygame.mixer.music.stop()
                 pygame.quit()
                 sys.exit()
             elif event.key == K_r:
@@ -75,6 +87,7 @@ while True:
                            
 #loop de colisão com o pontinho
     if colisão(cobra[0], pontinho_pos):
+        som_captura.play()
         pontinho_pos = posicao_aleatoria()
         cobra.append((0,0)) #adiciona mais uma célula a cobrinha
         placar = placar + 1
@@ -87,6 +100,9 @@ while True:
     if (cobra[0][0] <= 0 or cobra[0][0] >= 600 or
         cobra[0][1] <= 0 or cobra[0][1] >= 600 or
         cobra[0] in cobra[1:]):
+        colisao.play()
+        pygame.time.delay(2000)
+        pygame.mixer.music.stop()
         pygame.quit()
         sys.exit()
 
