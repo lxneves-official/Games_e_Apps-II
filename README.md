@@ -38,5 +38,27 @@ Nesta etapa você deve criar uma continuação para a história.
 * O Storyboard deve ser acionado pelo botão do mouse, ou seja, a cada clique a tela deve ser atualizada para a próxima imagem da história.
 * Após a útlima tela da história, ao clicar com o mouse, a tela do jogo deve ser fechada.
 
+## Critérios de avaliação
 
-Veja o resultado em https://trinket.io/embed/pygame/a3582442a327
+Sua produção final será avaliada pelos seguintes critérios:
+
+| Critério | Conceito A | Conceito B | Conceito C |
+| -------- | -------- | -------- | -------- | 
+| Código e Interatividade | 10 telas integradas, com clique do mouse funcionando perfeitamente e sem erros de execução. | Transição de telas funciona, mas apresenta pequenos erros ou menos de 10 telas. | Transição não funciona via clique ou código incompleto. |
+| Estética e Mídia | Imagens ajustadas ao tamanho da tela, legendas claras e som de fundo adequado. | Imagens sem dimensionamento adequado ou falta de som/legendas. | Sem adaptação de mídia ou legendas ausentes. |
+| Comentários e Matemática | Código totalmente comentado explicando a lógica e a matemática utilizada. | Presença de poucos comentários ou explicação matemática superficial. | Ausência de comentários explicativos no código. |
+
+## Orientação para Entrega no Google Classroom
+
+* Salve o arquivo final do seu código com o nome Storyboard_Nome_Sobrenome.py.
+* Adicione em uma pasta do seu Drive o código juntamente com a pasta de mídias (imagens e sons utilizadas).
+* Compartilhe o link dessa pasta na atividade no Google Classroom até o horário indicado pelo professor.
+
+## Atualização do Portfólio Digital
+
+Responda as perguntas abaixo ao registrar a atividade:
+
+* Qual foi o maior desafio técnico encontrado na programação do Pygame hoje?
+* Como os conceitos de medida e proporção ajudaram a organizar o layout visual do game?
+
+Por fim, capture 2 a 3 telas da sua narrativa, grave um pequeno trecho ou gif do storyboard em funcionamento e publique no seu Portfólio Digital com uma breve descrição explicativa da atividade.
