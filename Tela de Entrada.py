@@ -26,6 +26,22 @@ def main_menu():
     
     while True:
 
+        click = False
+        
+        for event in pygame.event.get():
+            if event.type == QUIT:
+                pygame.quit()
+                sys.exit()
+                
+            if event.type == KEYDOWN:
+                if event.key == K_ESCAPE:
+                    pygame.quit()
+                    sys.exit()
+                    
+            if event.type == MOUSEBUTTONDOWN:
+                if event.button == 1:
+                    click = True
+
         screen.fill((0,0,0))
         draw_text('Menu Principal', font, (255, 255, 255), screen, 330, 40)
 
@@ -34,6 +50,7 @@ def main_menu():
         button_1 = pygame.Rect(300, 200, 200, 50)
         button_2 = pygame.Rect(300, 300, 200, 50)
         button_3 = pygame.Rect(300, 400, 200, 50)
+        
         if button_1.collidepoint((mx, my)):
             if click:
                 game()
@@ -43,25 +60,13 @@ def main_menu():
         if button_3.collidepoint((mx, my)):
             if click:
                 exite()
+                
         pygame.draw.rect(screen, (255, 0, 0), button_1)
         pygame.draw.rect(screen, (255, 0, 0), button_2)
         pygame.draw.rect(screen, (255, 0, 0), button_3)
         draw_text('Jogar', font, (255, 255, 255), screen, 372, 215)
         draw_text('Opções', font, (255, 255, 255), screen, 363, 315)
         draw_text('Sair', font, (255, 255, 255), screen, 378, 415)
-
-        click = False
-        for event in pygame.event.get():
-            if event.type == QUIT:
-                pygame.quit()
-                sys.exit()
-            if event.type == KEYDOWN:
-                if event.key == K_ESCAPE:
-                    pygame.quit()
-                    sys.exit()
-            if event.type == MOUSEBUTTONDOWN:
-                if event.button == 1:
-                    click = True
 
         pygame.display.update()
         mainClock.tick(60)
