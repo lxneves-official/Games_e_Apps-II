@@ -21,6 +21,9 @@ click = False
 
 #Definição de ações do Menu Inicial--------------------------------------------#
 def main_menu():
+
+    global click
+    
     while True:
 
         screen.fill((0,0,0))
